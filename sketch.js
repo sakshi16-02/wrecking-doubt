@@ -12,7 +12,7 @@ var ground, ball1, rope1;
 }*/
 
 function setup(){
-    var canvas = createCanvas(1200,400);
+    var canvas = createCanvas(1200,800);
     engine = Engine.create();
     world = engine.world;
 
@@ -43,7 +43,7 @@ function setup(){
     box18 = new Box(700, 100, 70, 70); 
     box19 = new Box(700, 100, 70, 70); 
     box20 = new Box(700, 100, 70, 70); 
-    ball1 = new Ball(200, 200, 80, 80); 
+    ball1 = new Ball(200, 200); 
     rope1 = new rope(ball1.body, { x: 500, y: 50 });
 }
 
