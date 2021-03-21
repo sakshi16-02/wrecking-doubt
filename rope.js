@@ -4,7 +4,7 @@ class rope{
             bodyA: bodyA,
             pointB:pointB,
             stiffness:1.2,
-            length:250,
+            length:300
         }
         this.pointB = pointB;
         this.rope = Constraint.create(options);
